@@ -1,0 +1,21 @@
+{
+  "name": "13k22",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack serve --mode=development",
+    "build": "webpack build --mode=production"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "terser-webpack-plugin": "^5.3.3",
+    "webpack": "^5.74.0",
+    "webpack-dev-server": "^4.9.3",
+    "webpack-glsl-loader": "^1.0.1"
+  },
+  "devDependencies": {
+    "webpack-cli": "^4.10.0"
+  }
+}
