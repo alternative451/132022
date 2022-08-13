@@ -1,8 +1,6 @@
-# 13k22
+# DEATH 
 
-### Todo
+## DEPTH
 
-- set terser
-- set rollup
-- set zip
-- size overlay
+CELLULAR AUTOMATA
+
