@@ -35,6 +35,7 @@ Press B to trigger a dodge
  
  #### Bars
  
+ ```
  - vec2 pos
  - vec2 size
  - arr[vec2] durations
@@ -42,9 +43,10 @@ Press B to trigger a dodge
  - arr[ENUMS] windows effects
  - object theme
  
- - start(
- - stop(
- - reset(
- - desctruct(
- - construct(
+ - start()
+ - stop()
+ - reset()
+ - desctruct()
+ - construct()
+ ```
  
