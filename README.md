@@ -1,6 +1,6 @@
-# DEATH : an ellite rythm game with bars
+# DEATH : an elite rhythm game with bars
 
-Rythm game with bar, only bars, bars everywhere
+Rhythm game with bar, only bars, bars everywhere
 
 Press A for attack, long press for heavy attack
 Press B to trigger a dodge
@@ -8,32 +8,36 @@ Press B to trigger a dodge
 ### Ideas
 
 - progressive
- - hp bar
- - attack bar
- - dodge bar
- - ...
+  - hp bar
+  - attack bar
+  - dodge bar
+  - ...
 - progressive
- - simple attack
- - complex attack
- - mixed attack
- - dual attack
- - multiple ennemies
- - boss
-- map
-- simplified items
-- more from rythm games
- - annticipated patterns
- - desapearing bars
+  - simple attack
+  - complex attack
+  - mixed attack
+  - dual attack
+  - multiple enemies
+  - boss
+- screens
+  - title
+  - menu
+  - main combat
+  - map
+  - simplified items
+- more from rhythm games
+  - anticipated patterns
+  - disappearing bars
 - ui / ux
- - retro
- - gl
- - background change
- - "camera" shaking
- - bars patter for ennemy identification
+  - retro
+  - gl
+  - background change
+  - "camera" shaking
+  - bars patter for enemy identification
  
- ### Api
- 
- #### Bars
+### Api
+
+#### Bars
  
  ```
  - vec2 pos
@@ -50,3 +54,10 @@ Press B to trigger a dodge
  - construct()
  ```
  
+#### Screen manager
+
+```
+ register(screen)
+ load()
+ start()
+```

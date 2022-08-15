@@ -1,8 +1,9 @@
-import frag from "./shaders/frag.glsl"
-import vertex from "./shaders/vertex.glsl"
+import frag from "./shaders/frag.frag"
+import vertex from "./shaders/vertex.vert"
 import { init } from "./lib/canvas";
 
-const gl = init()
+const gl = init();
+console.log("%SIZE%");
 
 
 // Compile the vertex shader
