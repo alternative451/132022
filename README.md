@@ -1,6 +1,4 @@
-# DEATH 
-
-## or DEPTH
+# DEATH : an ellite rythm game with bars
 
 Rythm game with bar, only bars, bars everywhere
 
