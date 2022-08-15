@@ -1,3 +1,43 @@
 <!DOCTYPE HTML>
 <h1>TEST</h1>
 <script src="main.js" type="module"></script>
+
+<style>
+    #monster_a, #monster_hp, #player_hp, #player_a, #player_dash {
+        position: absolute;
+        background: red;
+    }
+
+    #monster_a:after, #monster_hp:after, #player_hp:after, #player_a:after, #player_dash:after {
+        content: "";
+        position: relative;
+        background: orange;
+    }
+    
+    #monster_hp {
+        width: 80%;
+        top: 10px;
+        left: 10%;
+        height: 30px;
+    }
+
+    #monster_a {
+        top: 50px;
+    }
+
+
+
+
+    BUTTON {
+        position: absolute;
+    }
+</style>
+
+<div id="monster_hp"></div>
+<div id="player_hp"></div>
+<div id="monster_a"></div>
+<div id="player_a"></div>
+<div id="player_dash"></div>
+
+<button type="button" id="a">A</button>
+<button type="button" id="b">B</button>
